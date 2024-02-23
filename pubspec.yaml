@@ -13,7 +13,9 @@ dependencies:
     sdk: flutter
   flutter_midi_command_platform_interface: ^0.4.1
   flutter_midi_command_linux: ^0.3.0
-  flutter_midi_command_windows: ^0.0.1-dev.6
+  flutter_midi_command_windows: 
+    git: https://github.com/InvisibleWrench/flutter_midi_command_windows.git
+    ref: 6a53ca4f01b97cc8fa4db28eeac5ee761af15230
 
 dev_dependencies:
   flutter_test:
